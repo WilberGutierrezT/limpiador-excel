@@ -1,0 +1,11 @@
+# Resultados generados al correr la herramienta sobre tus archivos
+*_limpio.xlsx
+*_reporte.txt
+
+# ...pero SÍ versionamos el resultado de demostración del repo
+!resultado/
+!resultado/*
+
+__pycache__/
+*.pyc
+.venv/

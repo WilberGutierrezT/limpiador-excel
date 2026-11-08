@@ -1,0 +1,14 @@
+Archivo de entrada: datos/ventas_sucio.xlsx
+Procesado: 2026-11-08 16:37
+Dimensiones originales (crudas): 1084 filas x 9 columnas
+Fila de encabezado detectada: fila 4 del archivo.
+  - Encabezados normalizados: ['Cliente', 'DNI', 'Fecha Venta', 'Producto', 'Cantidad', 'Precio Unitario', 'Monto Total', 'Ciudad', 'Correo']
+  - Se eliminaron 30 filas vacías y 0 columnas vacías.
+  - Se recortaron espacios sobrantes en 929 celdas de texto.
+  - Se marcaron como vacías 22 celdas con valores tipo 'N/A', '-', 'null'.
+  - Columnas convertidas a número: ['DNI', 'Precio Unitario', 'Monto Total']
+  - Columnas convertidas a fecha: ['Fecha Venta']
+  - Se unificaron 525 celdas con variantes de mayúsculas/espacios (p. ej. 'CUSCO'/'cusco' → 'Cusco').
+  - Se eliminaron 50 filas duplicadas.
+Dimensiones finales (limpias): 1000 filas x 9 columnas
+Archivo limpio guardado en: resultado/ventas_limpio.xlsx
